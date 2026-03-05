@@ -1,0 +1,29 @@
+.hero{
+height:100vh;
+
+background:url("/img/fondo.jpg") center/cover no-repeat;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+color:rgb(0, 0, 0);
+}
+
+.hero-content{
+animation:fade 1.5s;
+}
+
+@keyframes fade{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}

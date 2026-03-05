@@ -1,0 +1,12 @@
+.features{
+padding:120px 0;
+background:#f8f9fa;
+}
+
+.feature-card{
+transition:0.3s;
+}
+
+.feature-card:hover{
+transform:translateY(-10px);
+}
